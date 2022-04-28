@@ -6,7 +6,7 @@
 
 CODE&CRIPTO é um site capaz de realizar codificação e decodificação de mensagens em Cifra de César ou Base64. <br> 
 Base64 é um algoritmo de codificação (encoding) que permite transformar qualquer caractere de qualquer idioma em um alfabeto que consiste em letras latinas, dígitos e sinais. <br> Em criptografia, a Cifra de César, também conhecida como cifra de troca, código de César ou troca de César, é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. <br>
-Dessa forma, o projeto foi todo pensado - desde as linhas de código até o design - para oferecer ao usuário uma melhor experiência de usabilidade. A aplicação conta com header com páginas que explicam sobre esses métodos de criptografia, além de contar sobre a história de Alan Turing, o pai da criptografia um link para acesso à documentação do projeto, onde está tudo explicado em mais detalhes.
+Dessa forma, o projeto foi todo pensado - desde as linhas de código até o design - para oferecer ao usuário uma melhor experiência de usabilidade. A aplicação conta com header com páginas que explicam sobre esses métodos de criptografia, além de contar sobre a história de Alan Turing, o pai da criptografia e um link para acesso à documentação do projeto, onde está tudo explicado em mais detalhes.
 
 ## **Tecnologias utilizadas;**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
