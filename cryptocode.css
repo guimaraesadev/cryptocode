@@ -1,0 +1,177 @@
+/* div class HEADER virou div class MAIN */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Radio Canada', sans-serif ;
+}
+
+/* ESTILIZAÇÃO DO HEADER */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background-color: #3f51b5;
+    background-image: linear-gradient(225deg, #3f51b5 10%, #d97ca1 70%, #d97ca1 100%);
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin:10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#ffffff ;
+}
+body{   
+    background-image: url('./img/background.png');
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* ESTILIZAÇÃO DO BOX // CRYPTO */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    margin: 150px;
+    background-image: url(./images/def.png);
+    padding: 20px 15px 0 20px;
+    margin-top: 2rem;
+    box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.titulo{
+    margin: 1rem;
+    color:rgb(6, 5, 4);
+    font-weight: bold;
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 20px;
+    
+
+}
+
+.escolha{
+    display: flex;
+    margin: 3%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+}
+
+#selecioneMethod{
+    width: 100px;
+    margin: 0.5rem;
+    width: 11rem;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#ocultarIncremento{
+    margin: 0.5rem;
+    display: none;
+    border-radius: 10px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.metodo{
+    margin: 10px 20px;
+    color:rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mensagem-usuario{
+    display: flex;
+    width: 100%;
+}
+
+.texto{
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    border: none;
+    width: 30rem;
+    background: rgba(236, 229, 229, 0.2);
+    box-shadow:0 5px 15px rgba(0, 0, 0, .5);
+    height: 80px;
+    
+
+}
+
+#botao{
+    width: 18%;
+    height: 30px;
+    padding: auto;
+    
+    cursor: pointer;
+    margin: 20px;
+    margin-bottom: 2rem;
+    text-transform: none;
+    border: none;
+    border-radius: 10px;
+    
+    color: white;
+    
+    background-color: #3f51b5;
+    background-image: linear-gradient(225deg, #3f51b5 10%, #d97ca1 70%, #d97ca1 100%);
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(201, 80, 155);
+}
+
+.icon{
+    margin: 5px;
+    text-decoration: none;
+}
+
+select {
+    background-color: #3f51b5;
+    background-image: linear-gradient(225deg, #3f51b5 10%, #d97ca1 70%, #d97ca1 100%);
+    color: rgb(233, 223, 223);
+    padding: 8px;
+    width: 135px;
+    height: 35px;
+    border: none;
+    font-size: 15px;
+    box-shadow:0 5px 25px rgba(0, 0, 0, .5) ;
+   border-radius: 10px;
+   margin-top: 30px;
+}
+   
+
+
+
+@media (max-width:600px){ 
+/* toda tela que for menor que 600px, receberá esse estilo */
+}
+
+
+
+

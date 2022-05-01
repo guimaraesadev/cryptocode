@@ -1,3 +1,7 @@
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -38,17 +42,25 @@ nav a:hover {
     transition: all 0.5s;
 }
 
-.select select {
-    background-color: #d97ca1;
-    color: white;
+.select {
+    background-color: #3f51b5;
+    background-image: linear-gradient(225deg, #3f51b5 10%, #d97ca1 70%, #d97ca1 100%);
+    color: rgb(233, 223, 223);
     padding: 8px;
-    width: 200px;
-    height: 40px;
+    width: 135px;
+    height: 38px;
     border: none;
     font-size: 15px;
     box-shadow:0 5px 25px rgba(0, 0, 0, .5) ;
    border-radius: 10px;
    margin-top: 30px;
+   
+}
+
+.select a {
+    text-decoration: none;
+    color: rgb(231, 223, 223);
+    font-weight: 900;
 }
 
 .text-box{
@@ -81,13 +93,41 @@ nav a:hover {
     margin-left: 20px;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #3f51b5;
-    padding: 15px;
-    text-align: center;
-    color: #f2eee5;
-    height: 80px;
+
+.turing-box {
+    position: absolute;
+    top: 0;
+    right: 12%;
+
+}
+
+.turing-box img {
+    display: block;
+    padding-top: 180px;
+    margin-left: 20px;
+}
+
+
+.cifra-box {
+    position: absolute;
+    top: 0;
+    right: 12%;
+}
+
+.cifra-box img {
+    display: block;
+    padding-top: 150px;
+    margin-left: 20px;
+}
+
+.cesar-box {
+    position: absolute;
+    top: 0;
+    right: 12%;
+}
+
+.cesar-box img {
+    display: block;
+    padding-top: 100px;
+    margin-left:20px ;
 }

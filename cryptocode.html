@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE&CRYPTO | Serviços de CRIPTOGRAFIA</title>
+    <link rel="stylesheet" href="./cryptocode.css">
+    <link rel="icon" href="./images/2.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <img src="./images/777.png" alt="" width="90px">
+            <ul>
+                <li><a href="./index.html">Sobre</a></li>
+                <li><a href="">Criptografia</a></li>
+                <li><a href="">Base64</a></li>
+                <li><a href="">Cifra César</a></li>
+                <li><a href="">GUIDE</a></li>
+            </ul>
+        </nav>
+
+
+        <form action="" class="container">
+            <h1 class="titulo"> CODE&CRYPTO_</h1>
+            <p> 🔓 escolha sua opção e deixe sua mensagem segura!</p>
+            <section class="escolha">
+                <select name="selecioneMethod" id="selecioneMethod">
+                    <option value="metodo" disabled selected>Escolha sua opção</option>
+                    <option value="caesar">Cifra de César</option>
+                    <option value="base64">Base64</option>
+                </select>
+    
+                <input class="ocultarIncremento" id="ocultarIncremento" type="number" placeholder="Escolha uma chave">
+                <div class="metodo">
+                    <input checked type="radio" id="codificar" name="escolhaDeMetodo" value="codificar">
+                    <label for="escolhaDeMetodo">Codificar</label>
+                </div>
+                <div class="metodo">
+                    <input type="radio" id="decodificar" name="escolhaDeMetodo">
+                    <label for="escolhaDeMetodo">Decodificar</label>
+                </div>
+            </section>
+    
+            <section class="mensagem-usuario">
+                <textarea class="texto" id="escrever" name="texto-usuario" placeholder="Escreva sua mensagem..." rows="10"cols="33"></textarea>
+                <textarea class="texto" id="resultado" name="texto-usuario" placeholder= "Sua mensagem codificada aqui..." rows="10" cols="33" readonly></textarea>
+            </section>
+            <button type="button" id="botao">CODE here_</button>
+
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
