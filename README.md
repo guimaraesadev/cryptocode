@@ -1,7 +1,5 @@
 <h1 align="center">🔐 CODE&CRYPTO | #M2 | RESILIA </h1>
 
-![findingnemopgithub (10)](https://user-images.githubusercontent.com/101408372/165779960-aa574bc4-2fce-4bee-afbe-7b83f330091d.png)
-
 ## **Sobre a aplicação;**
 
 CODE&CRYPTO é um site capaz de realizar codificação e decodificação de mensagens em Cifra de César ou Base64. <br> 
@@ -38,9 +36,14 @@ explorar diferentes funcionalidades.
 
 ## **Imagens | Processo de criação;**
 
-<br>
+![image](https://user-images.githubusercontent.com/101408372/166557780-6f382511-c79b-4cc9-94e8-ffb1db6f5059.png)
 
-<br>
+![image](https://user-images.githubusercontent.com/101408372/166557919-1280d045-599e-4ea0-85c8-3df558fc784a.png)
+
+
+
+![image](https://user-images.githubusercontent.com/101408372/166558260-616e8a12-96ad-4b27-be6f-c06053f1b31e.png)
+
 
 
 ## **Documentação e referências;**
