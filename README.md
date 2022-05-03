@@ -40,16 +40,6 @@ explorar diferentes funcionalidades.
 
 <br>
 
-![image](https://user-images.githubusercontent.com/101408372/166168555-1bd7005e-0ca5-482b-8983-6a93e508ddc4.png)
-
-![image](https://user-images.githubusercontent.com/101408372/166168496-d9ff2f62-e503-4fe2-a24f-d836b178def6.png)
-
-![image](https://user-images.githubusercontent.com/101408372/166168644-db1030b8-339a-4394-8886-ac833f922775.png)
-
-![image](https://user-images.githubusercontent.com/101408372/166168683-de13a40f-a9cb-4451-a85d-9c7f73137082.png)
-
-
-
 <br>
 
 
