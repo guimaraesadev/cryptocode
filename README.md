@@ -16,9 +16,10 @@ Dessa forma, o projeto foi todo pensado - desde as linhas de código até o desi
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## **Requisitos da aplicação**; <br>
-A aplicação deve ser capaz de codificar e decodificar mensagens utilizando
+
+🏷️ A aplicação deve ser capaz de codificar e decodificar mensagens utilizando
 tanto base64 quanto cifra de césar; <br>
-Para isso, ela deve conter um formulário com: <br> <br>
+Para isso, ela deve conter um formulário com: <br> 
 🏷️ ○ Um campo de entrada textual, da mensagem que será codificada ou
 decodificada; <br>
 🏷️ Um campo de seleção, com as opções "cifra de césar" e "base64" com o
