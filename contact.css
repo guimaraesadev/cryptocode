@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    background-image: url(./images/bannercont.jpg);
+    background-position: center;
+    background-size: cover;
+    /* https://www.youtube.com/watch?v=AdEzWQfgZgw min: 6:08 */
+}
+
+.container {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1); /* box transparente */
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+
+    /* overflow: controla quando o texto é grande demais para caber em uma determinada box
+       overflow: scroll (adiciona um scroll ao box, por exemplo)
+       overflow: hidden (trava o texto dentro da box, não dando a opção de rolagem) 
+       ademais: overflow => visible, hidden, scroll e auto. 
+
+       obs: overflowpropriedade só funciona para elementos de bloco com uma altura especificada.
+
+
+    */
+
+    /* backdrop-filter: blur(px); => propriedade BLUR para borrar fundos! */
+
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    transform: skewX(-15deg);
+
+    /* skewX(Ndeg) => distorce um elemento no plano 2D. */
+}
+
+.container h2 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+.container .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.container .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 20px;
+
+}
+
+
+.container .row100 .col .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+
+.container .row100 .col .inputBox input,
+.container .row100 .col .inputBox textarea
+
+/* você pode estilizar diversos elementos ao mesmo tempo, porém, separando-os por vírgulas */
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+
+}
+
+.container .row100 .col .inputBox .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+
+    /* line-height: define a altura da linha para diferentes elementos <div> => o quanto uma linha se afasta da outra /// espaçamento entre linhas */
+
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+    /* pointer-events: se os links ou elementos setados devem reagir ao pointer do mouse
+       pointer: auto => reage
+       pointer: none => não reage
+    */
+}
+
+.container .row100 .col .inputBox input:focus + .text,
+.container .row100 .col .inputBox input:valid +.text 
+.container .row100 .col .inputBox textarea:focus + .text,
+.container .row100 .col .inputBox textarea:valid +.text 
+
+/* seletor "+" no CSS é chamado de seletor ADJACENTE
+   ele selecionará somente o elemento imediatamente após o primeiro elemento => (X+Y) 
+
+   document: https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+*/
+
+{
+    top: -35px;
+    left: -10px;
+
+    /* vai servir para abrir o input de dados quando o mouse for clicado por cima do elemento */
+
+}
+
+.container .row100 .col .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+
+}
+
+.container .row100 .col .inputBox input:focus ~ .line,
+.container .row100 .col .inputBox input:valid ~ .line
+
+{
+    height: 100%;
+
+}
+
+.container .row100 .col .inputBox .textarea 
+{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+
+}
+
+.container .row100 .col .inputBox textarea:focus ~ .line,
+.container .row100 .col .inputBox textarea:valid ~ .line
+
+{
+    height: 100%;
+
+}
+
+
+.container .row100 .col input[type="submit"]
+
+{
+border: none;
+padding: 10px 40px;
+cursor: pointer;
+background-color: #1732bb;
+background-image: linear-gradient(43deg, #1732bb 0%, #2d2ad3 46%, #c5a6ec 100%);
+border-radius: 20px;
+font-weight: bolder;
+color: #fff;
+font-size: 12px;
+
+}
