@@ -17,7 +17,7 @@ section {
     min-height: 100vh;
     padding: 20px;
     width: 100%;
-    background-image: url(./images/bannercont.jpg);
+    background-image: url(./images/banner2.jpg);
     background-position: center;
     background-size: cover;
     /* https://www.youtube.com/watch?v=AdEzWQfgZgw min: 6:08 */
@@ -199,8 +199,8 @@ section {
 border: none;
 padding: 10px 40px;
 cursor: pointer;
-background-color: #1732bb;
-background-image: linear-gradient(43deg, #1732bb 0%, #2d2ad3 46%, #c5a6ec 100%);
+background: #055f80;
+background-image: linear-gradient(0deg, #08AEEA 0%, #062f3a 100%);
 border-radius: 20px;
 font-weight: bolder;
 color: #fff;
