@@ -2,6 +2,9 @@
 
 ## **Hospedagem;**
 
+O projeto está hospedado no GitHub Pages. Esse processo faz parte do aprendizado contínuo na RESILIA Educação.<br>
+⬇️ <br> 
+[CODE&CRYPTO SERVER](https://guimaraesadev.github.io/criptografiaCodeRESILIA/) 
 
 
 ## **Sobre a aplicação;**
@@ -39,15 +42,18 @@ pessoa usuária
 🏷️ Não existem requisitos quanto ao estilo da página! Você tem liberdade total para
 explorar diferentes funcionalidades.
 
-## **Imagens | Processo de criação;**
+## **Imagens | Processo de criação;** <br>
+
+→ Página com ScrollUp, contando com a introdução + fatos históricos sobre a criptografia, a vida de Alan Turing e a codificação nos dias de hoje. 
 
 ![image](https://user-images.githubusercontent.com/101408372/166557780-6f382511-c79b-4cc9-94e8-ffb1db6f5059.png)
+
+→ Página principal, contando com o CRIPTOGRAFADOR de mensagens em Cifra de César e Base64.
 
 ![image](https://user-images.githubusercontent.com/101408372/166557919-1280d045-599e-4ea0-85c8-3df558fc784a.png)
 
 
 
-![image](https://user-images.githubusercontent.com/101408372/166558260-616e8a12-96ad-4b27-be6f-c06053f1b31e.png)
 
 
 
