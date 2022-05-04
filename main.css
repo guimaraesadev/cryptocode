@@ -372,3 +372,15 @@ h3{
 
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    background-image: url(./images/bannercont.jpg);
+    background-position: center;
+    background-size: cover;
+    /* https://www.youtube.com/watch?v=AdEzWQfgZgw min: 6:08 */
+}
