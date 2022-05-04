@@ -1,5 +1,8 @@
 <h1 align="center">🔐 CODE&CRYPTO | #M2 | RESILIA </h1>
 
+![coversgithub123 (2)](https://user-images.githubusercontent.com/101408372/166722929-3116863d-9e6d-4f39-9e46-2990059bea50.png)
+
+
 ## **Hospedagem;**
 
 O projeto está hospedado no GitHub Pages. Esse processo faz parte do aprendizado contínuo na RESILIA Educação.<br>
