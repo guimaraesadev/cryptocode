@@ -56,6 +56,7 @@ explorar diferentes funcionalidades.
 ![image](https://user-images.githubusercontent.com/101408372/166557919-1280d045-599e-4ea0-85c8-3df558fc784a.png)
 
 ## **Habilidades praticadas;**
+- Implementando Button ScrollUp;
 - Manipulação do DOM;
 - Integração JS + HTML;
 - if, else; 
@@ -99,7 +100,7 @@ explorar diferentes funcionalidades.
 - [DankiCode](https://blog.dankicode.com/eventos-em-javascript/)
 - [30 seconds of code | Caesar cipher](https://www.30secondsofcode.org/js/s/caesar-cipher)
 - [charCodeAt() | W3Schools](https://www.w3schools.com/jsref/jsref_fromcharcode.asp)
-
+- [Button ScrollUp | CSS | JavaScript](https://www.visualdicas.com.br/scripts/css/91-botao-scroll-to-top-html-css-javascript)
 
 
 
