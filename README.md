@@ -65,6 +65,25 @@ explorar diferentes funcionalidades.
 - Array;
 - Métodos em Array; 
 
+## **Implementações;**
+
+**Botão ScrollUp** ⬆️ com **JavaScript** que leva o usuário do final da página até o começo com apenas um click. <br>
+
+    window.addEventListener('scroll', function () {
+
+    let scroll = document.querySelector('.scrollTop')
+
+        scroll.classList.toggle('active', window.scrollY > 450)
+        })
+
+    function backTop() {
+
+    window.scrollTo({
+        
+        top: 0,
+        behavior: 'smooth'
+        })
+    }
 
 
 
