@@ -86,6 +86,11 @@ explorar diferentes funcionalidades.
         })
     }
 
+## **Design;**
+
+O design da aplicação foi pensado na experiência do usuário ao se conectar com as cores e elementos. Pensando nisso, utilizei elementos 3D para construir as imagens, dando um tom de modernidade. Além de utilizar uma paleta de cores que combinasse com as imagens selecionadas através do Unsplash. 
+
+![design](https://user-images.githubusercontent.com/101408372/167066047-e7c5981d-521a-4583-a566-3885c40e1914.png)
 
 
 
