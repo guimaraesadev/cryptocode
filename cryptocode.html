@@ -9,6 +9,7 @@
     <link rel="icon" href="./images/criptologo.png" type="image/x-icon">
 </head>
 <body>
+    <!-- PARTE 1: HEADER -->
     <div class="main">
         <nav>
             <img src="./images/criptologo.png" alt="" width="90px">
@@ -19,17 +20,22 @@
             </ul>
         </nav>
 
-
+    <!-- PARTE 2: FORM  -->
         <form action="" class="container">
             <h1 class="titulo"> CODE&CRYPTO_</h1>
             <p> 🔓 escolha sua opção e deixe sua mensagem segura!</p>
             <section class="escolha">
+
+                <!-- BOTÕES DE ESCOLHA // select dando 2 opções //b64 ou cifra -->
+
                 <select name="selecione" id="selecione">
                     <option value="metodo" disabled selected>Escolha sua opção</option>
                     <option value="caesar">Cifra de César</option>
                     <option value="base64">Base64</option>
                 </select>
-    
+                
+                <!-- precisa ser um botão RADIO -->
+
                 <input class="ocultarIncremento" id="ocultarIncremento" type="number" placeholder="Escolha os passos!">
                 <div class="metodo">
                     <input checked type="radio" id="codificar" name="escolhaDeMetodo" value="codificar">
@@ -40,7 +46,9 @@
                     <label for="escolhaDeMetodo">Decodificar</label>
                 </div>
             </section>
-    
+            
+            <!-- BOX DE MENSAGENS -->
+
             <section class="mensagem-usuario">
                 <textarea class="texto" id="escrever" name="texto-usuario" placeholder="Escreva sua mensagem..." rows="10"cols="33"></textarea>
                 <textarea class="texto" id="resultado" name="texto-usuario" placeholder= "Sua mensagem codificada aqui..." rows="10" cols="33" readonly></textarea>
@@ -49,7 +57,7 @@
 
         </form>
     </div>
-
+    <!-- SCRIPT PRINCIPAL  -->
     <script src="./index.js"></script>
 
 </body>
