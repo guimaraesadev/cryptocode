@@ -55,6 +55,15 @@ explorar diferentes funcionalidades.
 
 ![image](https://user-images.githubusercontent.com/101408372/166557919-1280d045-599e-4ea0-85c8-3df558fc784a.png)
 
+## **Habilidades praticadas;**
+- Manipulação do DOM;
+- Integração JS + HTML;
+- if, else; 
+- Eventos JavaScript;
+- Método: charCodeAt;
+- Função: .atob e .btoa;
+- Array;
+- Métodos em Array; 
 
 
 
@@ -65,7 +74,12 @@ explorar diferentes funcionalidades.
 - [Base64 | Wikipédia](https://pt.wikipedia.org/wiki/Base64)
 - [Cryptii](https://cryptii.com/pipes/caesar-cipher)
 - [charCodeAt( )](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
-- [Base64 | MDN | Documentação](https://developer.mozilla.org/en-US/docs/Glossary/Base64)
+- [Base64 | MDN | Documentação](https://developer.mozilla.org/en-US/docs/Glossary/Base64) <br>
+- [Eventos JavaScript](https://www.marciobrasil.net.br/javascript-2/lista-completa-de-eventos-javascript.html)
+- [IC UNICAMP | Eventos JS Lista](https://www.ic.unicamp.br/~celio/inf533/docs/eventos_javascript.html)
+- [DankiCode](https://blog.dankicode.com/eventos-em-javascript/)
+- [30 seconds of code | Caesar cipher](https://www.30secondsofcode.org/js/s/caesar-cipher)
+- [charCodeAt() | W3Schools](https://www.w3schools.com/jsref/jsref_fromcharcode.asp)
 
 
 
