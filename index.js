@@ -9,7 +9,7 @@ var textoUsuario = document.querySelector('#escrever');
 var resultadoTexto = document.getElementById('resultado');
 var botao = document.querySelector('#botao') 
 
-// tem a função de selecionar o que o usuário irá utilizar 
+// função de selecionar o que o usuário irá escolher 
 
 selecioneMetodo.addEventListener("change", function (e) {    //função anônima     
     var metodoSelecionado = e.target.value;
@@ -31,6 +31,9 @@ codificar.addEventListener("click", function () {
  decodificar.addEventListener("click", function () {
     botao.innerText = "_decode";             
   });
+
+// PROCESSANDO BASE64 
+
 
 function base64(){
   var input = textoUsuario.value
@@ -56,29 +59,17 @@ function caesar()  {
 
 
 // PROCESSANDO CIFRA DE CÉSAR
-// utilizar fromCharCode
-
-
-// https://www.30secondsofcode.org/js/s/caesar-cipher
-
-
-
-/*
-<script>
-let text = String.fromCharCode(65);
-document.getElementById("demo").innerHTML = text; 
-</script>
-*/
+// utilizar fromCharCode 
 
 function caesarCodificando(arr, key) {
   return arr.map((c)=>{
       let code = c.charCodeAt();
       if(code >= 65 && code <= 90){
-          return String.fromCharCode(((code - 65 + key) % 26) + 65) // https://stackoverflow.com/questions/65149100/seeking-an-explanation-of-caesar-cipher-code
+          return String.fromCharCode(((code - 65 + key) % 26) + 65) 
       } else if(code >= 97 && code <= 122){
           return String.fromCharCode(((code - 97 + key) % 26) + 97)
       } else return c
-  }).join('') //juntando todos os elementos do arr 
+  }).join('') //join com ('') irá juntar todos os elementos do arr sem espaço.
 }
 
 function caesarDecodificando(arr, key){
@@ -93,11 +84,6 @@ function caesarDecodificando(arr, key){
 
   // vou utilizar o join nesse caso da mesma forma que a documentação:
 
-  /*
-  const elements = ['Fire', 'Air', 'Water'];
-  console.log(elements.join(''));
-  // expected output: "FireAirWater"
-  */
 
 
 }
